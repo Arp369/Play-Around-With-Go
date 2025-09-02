@@ -13,8 +13,8 @@ func main() {
 
 	var userName string
 	var userTickets int
-	fmt.Scan(userName)
-	fmt.Scan(userTickets)
+	fmt.Scan(&userName)
+	fmt.Scan(&userTickets)
 
 	fmt.Printf("Success: %v bought %v tickets !\n", userName, userTickets)
 }
