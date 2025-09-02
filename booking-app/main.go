@@ -13,7 +13,13 @@ func main() {
 
 	var userName string
 	var userTickets int
+	var userEmail string
+
+	fmt.Print("Enter your name:")
 	fmt.Scan(&userName)
+	fmt.Print("Enter your valid email:")
+	fmt.Scan(&userEmail)
+	fmt.Print("Enter the numbers of tickets you want:")
 	fmt.Scan(&userTickets)
 
 	fmt.Printf("Success: %v bought %v tickets !\n", userName, userTickets)
