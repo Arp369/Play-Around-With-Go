@@ -22,7 +22,7 @@ func main() {
 	fmt.Print("Enter the numbers of tickets you want:")
 	fmt.Scan(&userTickets)
 
-	fmt.Printf("Success: %v bought %v tickets !\n", userName, userTickets)
+	fmt.Printf("Thank you %v for booking %v tickets. You will receive a confirmation message on %v shortly!!", userName, userTickets, userEmail)
 }
 
 // Greet our users
